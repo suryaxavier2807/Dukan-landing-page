@@ -29,7 +29,7 @@ export default function Topbar() {
         <div className=" bg-white border-b border-slate-300  flex justify-between p-4 ">
             
             <div className="flex  ">
-            <div className="mt-2 pr-2 md:invisible" onClick={ToggleSidebar}>
+            <div className="mt-2 pr-2 md:hidden" onClick={ToggleSidebar}>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="size-5">
                     <path fillRule="evenodd" d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75ZM2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8Zm0 4.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z" clipRule="evenodd" />
                 </svg>
